@@ -1,8 +1,12 @@
 {
-    "name": "team-reflex/oauth2-discord",
+    "name": "al3xable/oauth2-discord",
     "description": "OAuth2 client for authenticating with the Discord API servers",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Aliaksandr Zakharenka",
+            "email": "mail@al3xable.me"
+        },
         {
             "name": "David Cole",
             "email": "david@team-reflex.com"

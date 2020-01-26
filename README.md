@@ -1,12 +1,14 @@
 oauth2-discord
 ===
-[![Build Status](https://travis-ci.org/teamreflex/oauth2-discord.svg?branch=master)](https://travis-ci.org/teamreflex/oauth2-discord) [![Coverage Status](https://coveralls.io/repos/github/teamreflex/oauth2-discord/badge.svg?branch=master)](https://coveralls.io/github/teamreflex/oauth2-discord?branch=master)
+[![Build Status](https://travis-ci.org/al3xable/oauth2-discord.svg?branch=master)](https://travis-ci.org/al3xable/oauth2-discord) [![Coverage Status](https://coveralls.io/repos/github/al3xable/oauth2-discord/badge.svg?branch=master)](https://coveralls.io/github/al3xable/oauth2-discord?branch=master)
 
 Provides Discord OAuth 2.0 support for PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
 ## Installation
 
-Run `composer require team-reflex/oauth2-discord`.
+Run `composer require al3xable/oauth2-discord`.
+
+Based on https://github.com/teamreflex/oauth2-discord
 
 ## Usage
 
@@ -47,8 +49,9 @@ if (! isset($_GET['code'])) {
 
 ## Credits
 
+- [Aliaksandr Zakharenka](https://github.com/al3xable)
 - [David Cole](https://github.com/uniquoooo)
-- [All Contributors](https://github.com/teamreflex/oauth2-discord/contributors)
+- [All Contributors](https://github.com/al3xable/oauth2-discord/contributors)
 
 ## License
 
