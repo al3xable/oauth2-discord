@@ -11,9 +11,9 @@
 
 namespace Discord\OAuth;
 
-use Discord\OAuth\DiscordRequestException;
 use Discord\OAuth\Parts\User;
 use League\OAuth2\Client\Provider\AbstractProvider;
+use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 use League\OAuth2\Client\Token\AccessToken;
 use Psr\Http\Message\ResponseInterface;
 
@@ -102,6 +102,7 @@ class Discord extends AbstractProvider
 
     /**
      * {@inheritdoc}
+     * @return ResourceOwnerInterface|User
      */
     protected function createResourceOwner(array $response, AccessToken $token)
     {

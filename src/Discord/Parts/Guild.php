@@ -13,6 +13,13 @@ namespace Discord\OAuth\Parts;
 
 use Discord\OAuth\Part;
 
+/**
+ * @property string $id
+ * @property string $name
+ * @property string $icon
+ * @property $owner
+ * @property $permissions
+ */
 class Guild extends Part
 {
     /**

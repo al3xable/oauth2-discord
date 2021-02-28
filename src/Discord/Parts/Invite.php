@@ -13,6 +13,12 @@ namespace Discord\OAuth\Parts;
 
 use Discord\OAuth\Part;
 
+/**
+ * @property string $code
+ * @property $guild
+ * @property $xkcdpass
+ * @property $channel
+ */
 class Invite extends Part
 {
     /**

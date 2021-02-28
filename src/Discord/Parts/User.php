@@ -11,11 +11,22 @@
 
 namespace Discord\OAuth\Parts;
 
-use Discord\OAuth\Discord;
 use Discord\OAuth\Part;
 use Illuminate\Support\Collection;
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 
+/**
+ * @property string $id
+ * @property string $username
+ * @property string $email
+ * @property string $discriminator
+ * @property string $avatar
+ * @property bool $verified
+ * @property bool $mfa_enabled
+ *
+ * @property-read Collection|Guild[] $guilds
+ * @property-read Collection|Connection[] $connections
+ */
 class User extends Part implements ResourceOwnerInterface
 {
     /**
